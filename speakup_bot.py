@@ -16,7 +16,7 @@ dp = Dispatcher()
 async def start_handler(message: Message):
     keyboard = InlineKeyboardMarkup(inline_keyboard=[[
         InlineKeyboardButton(
-            text="🎙 Open SpeakUP! Test",
+            text="🎙 Start Speaking Test",
             web_app=WebAppInfo(url=SPEAKUP_URL)
         )
     ]])
