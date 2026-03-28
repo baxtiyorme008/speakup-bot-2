@@ -23,13 +23,13 @@ async def start_handler(message: Message):
     name = message.from_user.first_name or "there"
     await message.answer(
         f"👋 Hello, {name}!\n\n"
-        f"Welcome to *SpeakUP!* — your IELTS Speaking mock test platform by IELTS PEAK.\n\n"
+        f"Welcome to *SpeakUP!* — your IELTS Speaking mock test platform by Alisher Abduvohobov.\n\n"
         f"🎯 *What to expect:*\n"
-        f"• 3 parts · 12 questions · ~14 minutes\n"
-        f"• AI examiner asks the questions\n"
-        f"• You record your answers\n"
+        f"• 3 parts · 12 questions · ~14 minutes (approx.)\n"
+        f"• Examiner asks the questions\n"
+        f"• Your answers will be automatically recorded\n"
         f"• Instant band score + feedback\n\n"
-        f"Find a quiet place, put on headphones, and tap the button below when ready. 🎧",
+        f"Find a quiet place and tap the button below when ready. 🎧",
         parse_mode="Markdown",
         reply_markup=keyboard
     )
