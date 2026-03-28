@@ -1,0 +1,1 @@
+worker: python speakup_bot.py
